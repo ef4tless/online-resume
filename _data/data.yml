@@ -34,109 +34,118 @@ experiences:
   display: true
   title: 实习经历
   items:
-    - role: 信息安全专业
-      time: 2019.09 - 2023.07
-      company: 西华大学
-      tag:
-      location: Beijing
-      details: |
-        Experience in this company:
-        + First
-        + Second
+    # - role: 信息安全专业
+    #   time: 2019.09 - 2023.07
+    #   company: 西华大学
+    #   tag:
+    #   location: Beijing
+    #   details: |
+    #     Experience in this company:
+    #     + First
+    #     + Second
 
-        ...
+    #     ...
 
-    - role: Backend Developer
-      time: 2017.03 - 2018.03
-      company: First Company
-      tag: Remote, part-time
-      location: Beijing
-      details: |
-        Experience in this company:
-        + First
-        + Second
+    # - role: Backend Developer
+    #   time: 2017.03 - 2018.03
+    #   company: First Company
+    #   tag: Remote, part-time
+    #   location: Beijing
+    #   details: |
+    #     Experience in this company:
+    #     + First
+    #     + Second
 
-        ...
+    #     ...
 
 projects:
   display: true
-  title: Projects
+  title: 项目作品
   intro: |
-    This is all the projects I'm involved in.
-
+    
   items:
-    - name: Foo
-      link: https://www.google.com
-      details: |
-        Project Foo's detail, you can write markdown format text.
+    # - name: Foo
+    #   link: https://www.google.com
+    #   details: |
+    #     Project Foo's detail, you can write markdown format text.
 
-    - name: Bar
-      link:
-      details: |
-        Project Bar's detail, you can write markdown format text.
+    # - name: Bar
+    #   link:
+    #   details: |
+    #     Project Bar's detail, you can write markdown format text.
 
 skills:
   display: true
-  title: Skills
+  title: 技术能力
   details: |
-    Here is my skills:
-    + First
-    + Second
+    + __编程语言__: Python, C, x86 Assembly, Shell
+    + __工具__:
+      + 熟练使用 IDA Pro 进行软件静态分析并编写脚本
+      + 熟练使用 GDB 进行动态调试
+    + 对 Linux 用户态二进制漏洞有深入了解
+    + 熟悉软件二进制级静态分析技术的理论基础和代码实现
 
-    ...
-
-  levels:
-    - name: Skill A
-      level: 90
-    - name: Skill B
-      level: 80
-    - name: Skill C
-      level: 70
+  # levels:
+  #   - name: Skill A
+  #     level: 90
+  #   - name: Skill B
+  #     level: 80
+  #   - name: Skill C
+  #     level: 70
 
 education:
   display: true
-  title: Education
+  title: 教育背景
   items:
-    - university: Example University
-      time: 2015 - 2018
-      major: Machine Learning
-      degree: Master
+    - university: 西华大学
+      time: 2019 - 2023
+      major: 信息安全专业
+      degree: 本科在读
       details: |
-        Experience in this university:
-        + First
-        + Second
+        + __GPA前10%__
+        + CET4(438分)
 
-        ...
+    # - university: Example University
+    #   time: 2011 - 2015
+    #   major: Computer Science
+    #   degree: Bachelor
+    #   details: |
+    #     Experience in this university:
+    #     + First
+    #     + Second
 
-    - university: Example University
-      time: 2011 - 2015
-      major: Computer Science
-      degree: Bachelor
-      details: |
-        Experience in this university:
-        + First
-        + Second
-
-        ...
+    #     ...
 
 certificates:
   display: true
-  title: Certificates
+  title: 获得奖项
   items:
-    - name: Course Foo
-      authority: Coursera
-      time: 2020
+  #   之前打2021年长安杯高校组做出了一道baigei（堆溢出），最后是20多名。
+  # 也做了很多比赛pwn题的复现
+  # 随队获得：
+  # 2022虎符ctf初赛46名
+  # 2022 XCTF联赛*CTF分站赛第28名
+  # 2022 MRCTF 初赛第20名
+
+    - name: 2022虎符ctf初赛46名
+      authority: 奇安信
+      time: 2022.03
       link:
       details: |
-        It's my Course Foo certificate by coursera.
-    - name: Course Bar
-      authority: Coursera
-      time: 2020
-      link: https://www.google.com
+
+    - name: 2022 XCTF联赛*CTF分站赛第28名
+      authority: XCTF联赛
+      time: 2022.03
+      link: 
       details: |
 
+    - name: 2022 MRCTF 初赛第20名
+      authority: 微步
+      time: 2022.04
+      link: 
+      details: |
 publications:
-  display: true
+  display: false
   title: Publications
   intro: |
     This is all the books I wrote.
@@ -152,14 +161,14 @@ publications:
       link:
 
 patents:
-  display: true
+  display: false
   title: Patents
   details: |
     This is all my patents.
     + 2020\. A patent name is here. CN123456, filed May 15, 2020, and issued July 20, 2020.
 
 languages:
-  display: true
+  display: false
   title: Languages
   items:
     - idiom: Chinese
@@ -168,7 +177,7 @@ languages:
       level: Professional
 
 interests:
-  display: true
+  display: false
   title: Interests
   items:
     - item: Reading
@@ -177,7 +186,7 @@ interests:
       link:
 
 evaluation:
-  display: true
+  display: false
   title: Self-evaluation
   details: |
     Here is my self evaluation.
@@ -187,7 +196,7 @@ evaluation:
     ...
 
 footer:
-  display: true
+  display: false
 
 close: >
   Sorry, my resume has been hidden.
