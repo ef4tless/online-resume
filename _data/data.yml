@@ -1,46 +1,42 @@
 basic:
   name: E4L4
-  title: 安全研究员
+  title: 二进制/pwn手
   avatar:
-    display: true
-    path: https://e4l4pic.oss-cn-beijing.aliyuncs.com/img/QQ图片20220512121713.jpg
+    display: false
+    path: QQ图片20220512131637.jpg
 
 contact:
   email: 963697159@qq.com
-  phone: +86-180-0823-9271
+  phone: 
   wechat:
   whatsapp:
   telegram:
-  website: example.com
+  website: blog.e4l4.com
   medium:
   linkedin:
   googlescholar:
   researchgate:
-  github: github
+  github: ef4tless
   gitlab:
   bitbucket:
-  twitter: twitter
+  twitter: 
   stackoverflow:
   quora:
   goodreads:
 
 profile:
   display: true
-  title: Profile
+  title: 自我介绍
   details: |
-    It's your career profile, you can wirte markdown format text.
-    + First
-    + Second
-
-    ...
-
+    本人在校成绩优秀，乐观向上，对二进制漏洞挖掘与程序分析有浓厚的兴趣，愿意尝试新事物，具有较强的分析与解决问题的能力，以及信息检索与自主学习能力。拥有自己动手探索复杂系统实现机制的好奇心。在 CTF 竞赛中多次取得优秀成绩。
+    
 experiences:
   display: true
-  title: Experiences
+  title: 实习经历
   items:
-    - role: Backend Developer
-      time: 2018.03 - 2019.03
-      company: Second Company
+    - role: 信息安全专业
+      time: 2019.09 - 2023.07
+      company: 西华大学
       tag:
       location: Beijing
       details: |
