@@ -1,13 +1,13 @@
 basic:
-  name: Foo Bar
-  title: Backend Developer
+  name: E4L4
+  title: 安全研究员
   avatar:
     display: true
-    path: profile.png
+    path: https://e4l4pic.oss-cn-beijing.aliyuncs.com/img/QQ图片20220512121713.jpg
 
 contact:
-  email: me@example.com
-  phone: +86-111-2222-3333
+  email: 963697159@qq.com
+  phone: +86-180-0823-9271
   wechat:
   whatsapp:
   telegram:
