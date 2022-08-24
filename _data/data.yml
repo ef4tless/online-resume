@@ -163,6 +163,12 @@ certificates:
       link: 
       details: |
 
+    - name: 2022 强网杯线下赛17名 
+      authority: 河南省强网杯赛事
+      time: 2022.08
+      link: 
+      details: |
+
 publications:
   display: false
   title: Publications
