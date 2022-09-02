@@ -34,15 +34,15 @@ experiences:
   display: true
   title: 实习经历
   items:
-    # - role: 信息安全专业
-    #   time: 2019.09 - 2023.07
-    #   company: 西华大学
-    #   tag:
-    #   location: Beijing
-    #   details: |
-    #     Experience in this company:
-    #     + First
-    #     + Second
+    - role: 信息安全专业
+      time: 2019.09 - 2023.07
+      company: 西华大学
+      tag:
+      location: Beijing
+      details: |
+        Experience in this company:
+        + First
+        + Second
 
     #     ...
 
@@ -83,6 +83,7 @@ skills:
       + 熟练使用 IDA Pro 进行软件静态分析并编写脚本
       + 熟练使用 GDB 进行动态调试
     + 对 Linux 用户态二进制漏洞有深入了解
+    + 对当前ctf比赛赛题有一定经验
     + 熟悉软件二进制级静态分析技术的理论基础和代码实现
 
   # levels:
@@ -157,14 +158,32 @@ certificates:
       link: 
       details: |
       
-    - name: 2022 ciscn 西南分区赛第18名
+    - name: 2022 ciscn 西南分区赛第18名 
       authority: 第十五届全国大学生信息安全竞赛
       time: 2022.07
       link: 
       details: |
 
-    - name: 2022 强网杯线下赛17名 
-      authority: 河南省强网杯赛事
+    - name: 2022 Pwnhub赏金计划银牌讲师 
+      authority: 北京长亭科技有限公司
+      time: 2022.07
+      link: 
+      details: |
+
+    - name: 2022 强网杯线上赛第40名 
+      authority: 河南省强网杯赛事组
+      time: 2022.08
+      link: 
+      details: |
+
+    - name: 2022 强网杯线下赛第17名 
+      authority: 河南省强网杯赛事组
+      time: 2022.08
+      link: 
+      details: |
+
+    - name: 2022 网鼎杯线上赛社会组第7名 
+      authority: 国公安部/浙江省公安厅
       time: 2022.08
       link: 
       details: |
