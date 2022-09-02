@@ -128,17 +128,17 @@ certificates:
   # 2022 XCTF联赛*CTF分站赛第28名
   # 2022 MRCTF 初赛第20名
 
-    - name: 2022虎符ctf初赛46名
-      authority: 奇安信
-      time: 2022.03
-      link:
-      details: |
+    # - name: 2022虎符ctf初赛46名
+    #   authority: 奇安信
+    #   time: 2022.03
+    #   link:
+    #   details: |
 
-    - name: 2022 XCTF联赛*CTF分站赛第28名
-      authority: XCTF联赛
-      time: 2022.03
-      link: 
-      details: |
+    # - name: 2022 XCTF联赛*CTF分站赛第28名
+    #   authority: XCTF联赛
+    #   time: 2022.03
+    #   link: 
+    #   details: |
 
     - name: 2022 MRCTF 初赛第20名
       authority: 微步
