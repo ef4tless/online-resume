@@ -34,8 +34,8 @@ experiences:
   display: true
   title: 实习经历
   items:
-    - role: 信息安全专业
-      time: 2022.09 - ~
+    - role: 学习web渗透测试相关知识
+      time: 2022.09 - 2022.10
       company: 成都知了堂教育科技有限公司
       tag:
       location: 成都
@@ -72,7 +72,7 @@ projects:
     - name: xclibc
       link: https://github.com/ef4tless/xclibc
       details: |
-        一个用于切换程序运行libc环境版本的工具
+        + 一个用于切换程序运行libc环境版本的工具
 
 skills:
   display: true
@@ -83,9 +83,8 @@ skills:
       + 熟练使用 IDA Pro 进行软件静态分析并编写脚本
       + 熟练使用 GDB 进行动态调试
     + 能熟练编写 Linux 下的工具脚本
-    + 有对路由器等IOT设备分析经验
-    + 对 Linux 用户态二进制漏洞有深入了解
-    + 对当前ctf比赛赛题有一定经验
+    + 有对路由器等IOT设备分析经验,对 Linux 用户态二进制漏洞有深入了解
+    + 对当前ctf比赛赛题有一定经验,有ctf教学培训经验
     + 熟悉软件二进制级静态分析技术的理论基础和代码实现
 
   # levels:
