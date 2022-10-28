@@ -3,7 +3,7 @@ basic:
   title: 二进制安全/pwn手
   avatar:
     display: true
-    path: 
+    path: https://s2.loli.net/2022/10/28/4zMa65vgexSTRAn.jpg
 
 contact:
   email: 963697159@qq.com
@@ -34,15 +34,15 @@ experiences:
   display: false
   title: 实习经历
   items:
-    # - role: 信息安全专业
-    #   time: 2022.09 - ~
-    #   company: 中网信安科技有限公司
-    #   tag:
-    #   location: 成都
-    #   details: |
-    #     Experience in this company:
-    #     + First
-    #     + Second
+    - role: 信息安全专业
+      time: 2022.09 - ~
+      company: 成都知了堂教育科技有限公司
+      tag:
+      location: 成都
+      details: |
+        Experience in this company:
+        + First
+        + Second
 
     #     ...
 
@@ -69,10 +69,10 @@ projects:
     #   details: |
     #     Project Foo's detail, you can write markdown format text.
 
-    # - name: Bar
-    #   link:
-    #   details: |
-    #     Project Bar's detail, you can write markdown format text.
+    - name: Bar
+      link:
+      details: |
+        Project Bar's detail, you can write markdown format text.
 
 skills:
   display: true
@@ -83,6 +83,7 @@ skills:
       + 熟练使用 IDA Pro 进行软件静态分析并编写脚本
       + 熟练使用 GDB 进行动态调试
     + 有对路由器等IOT设备分析经验
+    + 能编写 Linux 下的工具脚本
     + 对 Linux 用户态二进制漏洞有深入了解
     + 对当前ctf比赛赛题有一定经验
     + 熟悉软件二进制级静态分析技术的理论基础和代码实现
@@ -141,11 +142,11 @@ certificates:
     #   link: 
     #   details: |
 
-    - name: 2022 MRCTF 初赛第20名
-      authority: 微步
-      time: 2022.04
-      link: 
-      details: |
+    # - name: 2022 MRCTF 初赛第20名
+    #   authority: 微步
+    #   time: 2022.04
+    #   link: 
+    #   details: |
 
     - name: 2022 ISCC(大学生赛区)一等奖
       authority: 北京理工大学信息系统及安全对抗实验中心
@@ -159,7 +160,7 @@ certificates:
       link: 
       details: |
       
-    - name: 2022 ciscn 西南分区赛第18名 
+    - name: 2022 ciscn 西南分区赛二等奖(第18名) 
       authority: 第十五届全国大学生信息安全竞赛
       time: 2022.07
       link: 
@@ -171,13 +172,13 @@ certificates:
       link: 
       details: |
 
-    - name: 2022 强网杯线上赛第40名 
+    - name: 2022 强网杯线上赛强网先锋(第40名)
       authority: 河南省强网杯赛事组
       time: 2022.08
       link: 
       details: |
 
-    - name: 2022 强网杯线下赛第17名 
+    - name: 2022 强网杯线下赛三等奖(第17名)
       authority: 河南省强网杯赛事组
       time: 2022.08
       link: 
@@ -189,7 +190,7 @@ certificates:
       link: 
       details: |
 
-    - name: 2022 XCTF高校网络专题挑战赛第8名 
+    - name: 2022 XCTF高校网络专题挑战赛优胜奖(第8名)
       authority: XCTF国际联赛
       time: 2022.09
       link: 
