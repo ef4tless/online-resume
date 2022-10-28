@@ -31,7 +31,7 @@ profile:
     本人在校成绩优秀，乐观向上，对二进制漏洞挖掘与程序分析有浓厚的兴趣，愿意尝试新事物，具有较强的分析与解决问题的能力，以及信息检索与自主学习能力。拥有自己动手探索复杂系统实现机制的好奇心。在 CTF 竞赛中多次取得优秀成绩。现为星盟安全团队成员。
     
 experiences:
-  display: false
+  display: true
   title: 实习经历
   items:
     - role: 信息安全专业
@@ -39,10 +39,10 @@ experiences:
       company: 成都知了堂教育科技有限公司
       tag:
       location: 成都
-      details: |
-        Experience in this company:
-        + First
-        + Second
+      # details: |
+      #   Experience in this company:
+      #   + First
+      #   + Second
 
     #     ...
 
@@ -59,7 +59,7 @@ experiences:
     #     ...
 
 projects:
-  display: false
+  display: true
   title: 项目作品
   intro: |
     
@@ -69,10 +69,10 @@ projects:
     #   details: |
     #     Project Foo's detail, you can write markdown format text.
 
-    - name: Bar
-      link:
+    - name: xclibc
+      link: https://github.com/ef4tless/xclibc
       details: |
-        Project Bar's detail, you can write markdown format text.
+        一个用于切换程序运行libc环境版本的工具
 
 skills:
   display: true
@@ -82,8 +82,8 @@ skills:
     + __工具__:
       + 熟练使用 IDA Pro 进行软件静态分析并编写脚本
       + 熟练使用 GDB 进行动态调试
+    + 能熟练编写 Linux 下的工具脚本
     + 有对路由器等IOT设备分析经验
-    + 能编写 Linux 下的工具脚本
     + 对 Linux 用户态二进制漏洞有深入了解
     + 对当前ctf比赛赛题有一定经验
     + 熟悉软件二进制级静态分析技术的理论基础和代码实现
