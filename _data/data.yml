@@ -1,6 +1,6 @@
 basic:
   name: 陈彦名
-  title: 二进制/pwn手
+  title: 二进制安全/pwn手
   avatar:
     display: true
     path: 
@@ -82,6 +82,7 @@ skills:
     + __工具__:
       + 熟练使用 IDA Pro 进行软件静态分析并编写脚本
       + 熟练使用 GDB 进行动态调试
+    + 有对路由器等IOT设备分析经验
     + 对 Linux 用户态二进制漏洞有深入了解
     + 对当前ctf比赛赛题有一定经验
     + 熟悉软件二进制级静态分析技术的理论基础和代码实现
@@ -185,6 +186,12 @@ certificates:
     - name: 2022 网鼎杯线上赛社会组第7名 
       authority: 国公安部/浙江省公安厅
       time: 2022.08
+      link: 
+      details: |
+
+    - name: 2022 XCTF高校网络专题挑战赛第8名 
+      authority: XCTF国际联赛
+      time: 2022.09
       link: 
       details: |
 
