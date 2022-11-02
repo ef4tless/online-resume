@@ -3,7 +3,7 @@ basic:
   title: 二进制安全/pwn手
   avatar:
     display: true
-    path: 1.jpg
+    path: 2.jpg
 
 contact:
   email: 963697159@qq.com
@@ -148,12 +148,6 @@ certificates:
       time: 2022.06
       link: 
       details: |
-
-    - name: 2022 ciscn 初赛西南赛区第11名
-      authority: 第十五届全国大学生信息安全竞赛
-      time: 2022.05
-      link: 
-      details: |
       
     - name: 2022 ciscn 西南分区赛二等奖(第18名) 
       authority: 第十五届全国大学生信息安全竞赛
@@ -167,7 +161,7 @@ certificates:
       link: 
       details: |
 
-    - name: 2022 强网杯线上赛强网先锋(第40名)
+    - name: 2022 强网杯线上赛强网先锋
       authority: 河南省强网杯赛事组
       time: 2022.08
       link: 
@@ -185,7 +179,7 @@ certificates:
       link: 
       details: |
 
-    - name: 2022 XCTF高校网络专题挑战赛优胜奖(第8名)
+    - name: 2022 XCTF高校网络专题挑战赛决赛优胜奖(第8名)
       authority: XCTF国际联赛
       time: 2022.09
       link: 
