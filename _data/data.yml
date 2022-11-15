@@ -59,7 +59,7 @@ experiences:
     #     ...
 
 projects:
-  display: true
+  display: false
   title: 项目作品
   intro: |
     
@@ -69,10 +69,10 @@ projects:
     #   details: |
     #     Project Foo's detail, you can write markdown format text.
 
-    - name: xclibc
-      link: https://github.com/ef4tless/xclibc
-      details: |
-        + 一个用于切换程序运行libc环境版本的工具
+    # - name: xclibc
+    #   link: https://github.com/ef4tless/xclibc
+    #   details: |
+    #     + 一个用于切换程序运行libc环境版本的工具
 
 skills:
   display: true
@@ -182,6 +182,12 @@ certificates:
     - name: 2022 XCTF高校网络专题挑战赛决赛优胜奖(第8名)
       authority: XCTF国际联赛
       time: 2022.09
+      link: 
+      details: |
+
+    - name: 2022 四川省大学生信息安全技术大赛三等奖
+      authority: 成都信息工程大学
+      time: 2022.11
       link: 
       details: |
 
