@@ -1,249 +1,434 @@
 basic:
-  name: 陈彦名
-  title: 二进制安全/pwn手
+  name: 陈彦名                      # name
+  title: 二进制安全/pwn手           # job title
   avatar:
-    display: true
-    path: 2.jpg
+    show: true                       # show or hide avatar
+    path: https://e4l4pic.oss-cn-beijing.aliyuncs.com/2.jpg # avatar file path
 
 contact:
-  email: 963697159@qq.com
-  phone: 18008239271
-  wechat:
-  whatsapp:
-  telegram:
-  website: blog.e4l4.com
-  medium:
-  linkedin:
-  googlescholar:
-  researchgate:
-  github: ef4tless
-  gitlab:
-  bitbucket:
-  twitter: 
-  stackoverflow:
-  quora:
-  goodreads:
+  # meta
+  location: 上海, 中国 # location
+  email: 963697159@qq.com    # email address
+  phone: +86-180-0823-9271 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  website: blog.e4l4.com     # site URL without schema, like example.com, will automatically prepand "https://"
+
+  gender:                  # gender or pronoun
+  birthday:                # birthday
+  nationality:             # nationality
+  visa:                    # passport visa
+  drivinglicense:          # driving licence
+
+  # contact
+  wechat:                  # username
+  whatsapp:                # 8611122223333     | https://wa.me/8611122223333
+  telegram:                # username          | https://t.me/username
+  messenger:               # username          | https://m.me/username
+  line:                    # lineid            | https://line.me/R/ti/p/@lineid
+  viber:                   # username          | https://vb.me/username
+  threema:                 # userid            | https://threema.id/userid
+
+  # programmer
+  github:                  # username          | https://github.com/username
+  gitlab:                  # username          | https://gitlab.com/username
+  bitbucket:               # username          | https://bitbucket.com/username
+  stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
+  leetcode:                # username          | https://leetcode.com/username
+  codeforces:              # username          | https://codeforces.com/profile/username
+  codewars:                # username          | https://www.codewars.com/users/username
+  codepen:                 # username          | https://codepen.io/username
+  tryhackme:               # username          | https://tryhackme.com/p/username
+
+  # academic
+  googlescholar:           # username          | https://scholar.google.com/citations?user=username
+  researchgate:            # username          | https://www.researchgate.net/profile/username
+  kaggle:                  # username          | https://www.kaggle.com/username
+  orcid:                   # id                | https://orcid.org/id
+  figshare:                # name/id           | https://figshare.com/authors/name/id
+
+  # writer
+  devto:                   # username          | https://dev.to/username
+  medium:                  # username          | https://medium.com/@username
+  wordpress:               # username          | https://username.wordpress.com
+  blogger:                 # username          | https://username.blogspot.com
+  wikipedia:               # username          | https://www.wikipedia.org/wiki/User:username
+
+  # designer
+  figma:                   # username          | https://www.figma.com/@username
+  behance:                 # username          | https://www.behance.net/username
+  dribble:                 # username          | https://dribbble.com/username
+  artstation:              # username          | https://www.artstation.com/username
+
+  # other cv
+  linkedin:                # username          | https://linkedin.com/in/username
+  indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
+  xing:                    # username          | https://www.xing.com/profile/username
+  fiverr:                  # username          | https://www.fiverr.com/username
+  freelancer:              # username          | https://www.freelancer.com/u/username
+
+  # social media
+  twitter:                 # username          | https://twitter.com/username
+  mastodon:                # username@server
+  instagram:               # username          | https://instagram.com/username
+  unsplash:                # username          | https://unsplash.com/@username
+  _500px:                  # username          | https://500px.com/p/username
+  youtube:                 # username          | https://www.youtube.com/@username
+  tiktok:                  # username          | https://www.tiktok.com/@username
+  quora:                   # username          | https://www.quora.com/profile/username
+  zhihu:                   # username          | https://www.zhihu.com/people/username
+  goodreads:               # username          | https://www.goodreads.com/user/show/username
+  strava:                  # useid             | https://www.strava.com/athletes/userid
 
 profile:
-  display: true
+  show: true
+  order: 1
   title: 自我介绍
-  details: |
+  description: |
     本人在校成绩优秀，乐观向上，对二进制漏洞挖掘与程序分析有浓厚的兴趣，愿意尝试新事物，具有较强的分析与解决问题的能力，以及信息检索与自主学习能力。拥有自己动手探索复杂系统实现机制的好奇心。在 CTF 竞赛中多次取得优秀成绩。
-    
-experiences:
-  display: false
-  title: 实习经历
+
+experience:
+  show: true
+  order: 3
+  title: 工作经历
+  description: |
+
   items:
-    - role: 学习web渗透测试相关知识
-      time: 2022.09 - 2022.10
-      company: 成都知了堂教育科技有限公司
-      tag:
-      location: 成都
-      # details: |
-      #   Experience in this company:
-      #   + First
-      #   + Second
 
-    #     ...
+    - company: 上海螣龙科技有限公司
+      link:
+      tags: 实习
+      date: 2023.04 - 2023.08
+      role: 安全研究员
+      location: 上海
+      description: |
+        + 收集二进制CVE漏洞的POC，进行复现和工具化集成
+        + 二进制CVE漏洞的1day复现，0day挖掘
 
-    # - role: Backend Developer
-    #   time: 2017.03 - 2018.03
-    #   company: First Company
-    #   tag: Remote, part-time
-    #   location: Beijing
-    #   details: |
-    #     Experience in this company:
-    #     + First
-    #     + Second
+project:
+  show: true
+  order: 4
+  title: 项目经历
+  description: |
 
-    #     ...
-
-projects:
-  display: false
-  title: 项目作品
-  intro: |
-    
   items:
-    # - name: Foo
-    #   link: https://www.google.com
-    #   details: |
-    #     Project Foo's detail, you can write markdown format text.
+    - name: 洞观-企业安全评估系统
+      link: 
+      tags: 开发者,本科毕业设计
+      date: 
+      description: |
+        + 能够对企业系统资产进行漏洞扫描和提出修复建议，支持常见漏洞以及自定义CVE扫描
+        + 能够进行信息收集扫描，指纹识别，端口探测，域名探测等
+        + 能对扫描结果进行综合评估，给出资产威胁风险评分
 
-    # - name: xclibc
-    #   link: https://github.com/ef4tless/xclibc
-    #   details: |
-    #     + 一个用于切换程序运行libc环境版本的工具
-
-skills:
-  display: true
+    - name: xclibc
+      link: https://github.com/ef4tless/xclibc
+      tags: 开发者
+      date:
+      description: |
+        + 一个在CTF比赛中用于切换题目运行libc环境的工具
+        + 基于python和shell编写
+skill:
+  show: true
+  order: 5
   title: 技术能力
-  details: |
+  description: |
     + __编程语言__: Python, C, x86 Assembly, Shell
     + 熟练使用 IDA Pro 进行软件静态分析并编写脚本,熟练使用 GDB 进行动态调试,熟悉软件二进制级静态分析技术的理论基础和代码实现
     + 能熟练编写 Linux 下的工具脚本,有对路由器等IOT设备分析经验,对 Linux 用户态二进制漏洞有深入了解
+    + 熟悉网络爬虫的编写，有编写免杀工具的经验
     + 对当前ctf比赛赛题有一定经验,有ctf教学培训经验
 
-  # levels:
+  # items:
   #   - name: Skill A
-  #     level: 90
+  #     level: 5
   #   - name: Skill B
-  #     level: 80
+  #     level: 4
   #   - name: Skill C
-  #     level: 70
+  #     level: 3
+  #   - name: Skill D
+  #     level: 4
+  #   - name: Skill E
+  #     level: 3
+  #   - name: Skill F
+  #     level: 1
+  #   - name: Skill G
+  #     level: 4
+  #   - name: Skill H
+  #     level: 4
+  #   - name: Skill I
+  #     level: 3
 
+  # groups:
+  #   - name: 编程语言
+  #     item:
+  #       - Python
+  #       - C
+  #       - x86 汇编
+  #       - Shell
+  #       - Go 
+  #   - name: 二进制
+  #     item:
+  #       - 熟练使用 IDA Pro 进行软件静态分析并编写脚本,熟练使用 GDB 进行动态调试,熟悉软件二进制级静态分析技术的理论基础和代码实现
+  #       - Skill F
+  #       - Skill G
+  #   - name: Group C Skills
+  #     item:
+  #       - Skill H
+  #       - Skill I
+      
 education:
-  display: true
+  show: true
+  order: 2
   title: 教育背景
-  items:
-    - university: 西华大学
-      time: 2019 - 2023
-      major: 信息安全专业
-      degree: 本科在读
-      details: |
-        + __GPA前10%__
-        + CET4(442分)
+  description: |
 
-    # - university: Example University
-    #   time: 2011 - 2015
+  items:
+    - institution: 西华大学
+      link: 'https://www.xhu.edu.cn/'
+      date: 2019 - 2023
+      major: 信息安全专业
+      degree: 本科
+      description: |
+        + GPA专业前10%
+        + CET4(442分)
+    # - institution: Example University
+    #   link:
+    #   date: 2011 - 2015
     #   major: Computer Science
     #   degree: Bachelor
-    #   details: |
-    #     Experience in this university:
+    #   description: |
+    #     Additional information for this institution.
     #     + First
     #     + Second
 
-    #     ...
-
-certificates:
-  display: true
+certificate:
+  show: true
+  order: 6
   title: 获得奖项
+  description: |
+
   items:
-  #   之前打2021年长安杯高校组做出了一道baigei（堆溢出），最后是20多名。
-  # 也做了很多比赛pwn题的复现
-  # 随队获得：
-  # 2022虎符ctf初赛46名
-  # 2022 XCTF联赛*CTF分站赛第28名
-  # 2022 MRCTF 初赛第20名
-
-    # - name: 2022虎符ctf初赛46名
-    #   authority: 奇安信
-    #   time: 2022.03
+    # - name: Example Certificate One
+    #   issuer: by Example
+    #   date: 2020
+    #   link: '#'
+    #   description: |
+    #     It's my Example Certificate One by Example.
+    # - name: Example Certificate Two
+    #   issuer: by Example
+    #   date: 2020
     #   link:
-    #   details: |
+    #   description: |
+    #     It's my Example Certificate Two by Example.
+    - name: 国家信息安全水平考试（NISP）一级
 
-    # - name: 2022 XCTF联赛*CTF分站赛第28名
-    #   authority: XCTF联赛
-    #   time: 2022.03
-    #   link: 
-    #   details: |
-
-    # - name: 2022 MRCTF 初赛第20名
-    #   authority: 微步
-    #   time: 2022.04
-    #   link: 
-    #   details: |
-
-    - name: 2022 ISCC(大学生赛区)一等奖
-      authority: 北京理工大学信息系统及安全对抗实验中心
+    - name: 2022年第19届信息安全与对抗技术竞赛一等奖
+      # issuer: 北京理工大学信息系统及安全对抗实验中心
       time: 2022.06
       link: 
       details: |
       
-    - name: 2022 ciscn 西南分区赛二等奖(第18名) 
+    - name: 2022年第十五届全国大学生信息安全竞赛西南赛区二等奖
       authority: 第十五届全国大学生信息安全竞赛
       time: 2022.07
       link: 
       details: |
 
-    - name: 2022 Pwnhub赏金计划银牌讲师 
+    - name: 2022年Pwnhub赏金计划银牌讲师 
       authority: 北京长亭科技有限公司
       time: 2022.07
       link: 
       details: |
 
-    - name: 2022 强网杯线上赛强网先锋
+    - name: 2022年第六届强网杯全国网络安全挑战赛线上赛强网先锋
       authority: 河南省强网杯赛事组
       time: 2022.08
       link: 
       details: |
 
-    - name: 2022 强网杯线下赛三等奖(第17名)
+    - name: 2022年第六届强网杯全国网络安全挑战赛线下赛三等奖
       authority: 河南省强网杯赛事组
       time: 2022.08
       link: 
       details: |
 
-    - name: 2022 网鼎杯线上赛社会组第7名 
-      authority: 国公安部/浙江省公安厅
+    - name: 2022第三届“网鼎杯”网络安全大赛线上赛社会组第7名
+      authority: 国公安部/浙江省公安厅第7名 
       time: 2022.08
       link: 
       details: |
 
-    - name: 2022 XCTF高校网络专题挑战赛决赛优胜奖(第8名)
-      authority: XCTF国际联赛
+    - name: 2022年XCTF高校网络专题挑战赛决赛优胜奖
+      authority: XCTF国际联赛(第8名)
       time: 2022.09
       link: 
       details: |
 
-    - name: 2022 四川省大学生信息安全技术大赛三等奖
+    - name: 2022年四川省大学生信息安全技术大赛三等奖
       authority: 成都信息工程大学
       time: 2022.11
       link: 
       details: |
 
-publications:
-  display: false
-  title: Publications
-  intro: |
-    This is all the books I wrote.
+    - name: 2023年第十六届全国大学生信息安全竞赛西南赛区一等奖
 
-  items:
-    - title: Foo in Action
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link: https://www.google.com
-    - title: The Art of Bar
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link:
+# publication:
+#   show: true
+#   order: 7
+#   title: Publications
+#   description: |
+#     The publication section in a resume is a dedicated section where you can showcase any publications that you have authored or contributed to. This section is particularly relevant for individuals in academic or research fields, but can also be relevant for individuals in other fields who have published articles or papers.
 
-patents:
-  display: false
-  title: Patents
-  details: |
-    This is all my patents.
-    + 2020\. A patent name is here. CN123456, filed May 15, 2020, and issued July 20, 2020.
+#     Publications can include academic journal articles, conference papers, book chapters, reports, or other written works. In this section, you should list the title of the publication, the names of any co-authors, the name of the publication or conference, the date of publication, and any other relevant details.
 
-languages:
-  display: false
-  title: Languages
-  items:
-    - idiom: Chinese
-      level: Native
-    - idiom: English
-      level: Professional
+#     If you have a long list of publications, you may want to consider including only the most relevant or significant publications on your resume. Alternatively, you could create a separate publication list and provide it as a separate document, either in your application materials or upon request.
 
-interests:
-  display: false
-  title: Interests
-  items:
-    - item: Reading
-      link:
-    - item: Cooking
-      link:
+#     Including a publication section in your resume can help demonstrate your expertise and credibility in your field, and can help you stand out from other candidates. However, if you do not have any publications to list, it is not necessary to include this section in your resume.
 
-evaluation:
-  display: false
-  title: Self-evaluation
-  details: |
-    Here is my self evaluation.
-    + First
-    + Second
+#   items:
+#     - title: Example Publication in Action
+#       authors: Foo Bar
+#       conference: Foobar, 2019
+#       link: '#'
+#     - title: The Art of Example Publication
+#       authors: Foo Bar
+#       conference: Foobar, 2019
+#       link:
 
-    ...
+# award:
+#   show: true
+#   order: 8
+#   title: Awards
+#   description: |
+#     The award section in a resume is a dedicated section where you can showcase any awards you have received. This section is particularly relevant for individuals who have received awards for their work in their field, such as employees who have received performance awards or industry-specific awards. In this section, you should list the name of the award, the organization or institution that awarded it, the date it was awarded, and any other relevant details.
 
-footer:
-  display: true
+#     When including your awards on your resume, be sure to focus on the most significant or relevant awards that showcase your skills and expertise. If you have received a long list of awards, you may want to consider including only the most recent or prestigious awards on your resume.
 
-close: >
-  Sorry, my resume has been hidden.
+#     By highlighting your awards, you can demonstrate your achievements and accomplishments in your field, and can help differentiate yourself from other candidates. However, if you have not received any awards, it is not necessary to include this section in your resume.
+
+#   items:
+#     - name: Example Awared One
+#       awarder: by Example
+#       date: 2022
+#       link: '#'
+#       description: |
+#         It's my Example Awared One by Example.
+#     - name: Example Awared Two
+#       awarder: by Example
+#       date: 2022
+#       link:
+#       description: |
+#         It's my Example Awared Two by Example.
+
+# patent:
+#   show: true
+#   order: 9
+#   title: Patents
+#   description: |
+#     The patent section in a resume is a dedicated section where you can showcase any patents that you have been granted or are in the process of obtaining. This section is particularly relevant for individuals who work in scientific or technical fields, as well as for individuals who have developed innovative products or technologies.
+
+#     In this section, you should list the title of the patent, the name of the inventors, the patent number, and the date it was granted. If the patent is pending, you can indicate that it is "pending" or "in review." You may also want to provide a brief description of the technology or invention that the patent covers.
+
+#     Including a patent section in your resume can help demonstrate your expertise and accomplishments in your field, and can help you stand out from other candidates. However, if you do not have any patents to list, it is not necessary to include this section in your resume.
+
+#     Template for a pending patent:
+
+#     + [Inventor Name]. [Pursued Year]. [Title]. [Patent Number], filed [Submitted Date]. Patent pending.
+
+#     Template for an approved patent:
+
+#     + [Inventor Name]. [Pursued Year]. [Title]. [Patent Number], filed [Submitted Date], [Received Date].
+
+#     The following are some examples of patent formats.
+
+#     + Foo Bar. 2022. Example patent name one. US 123456, filed Oct 3, 2022. Patent pending.
+#     + Foo Bar. 2022. Example patent name two. US 654321, filed Oct 3, 2022, and issued Nov 15, 2022.
+
+# organization:
+#   show: true
+#   order: 10
+#   title: Organizations
+#   description: |
+#     The organization section in a resume, specifically for social contexts, is a section where you can showcase any relevant involvement or leadership positions in social, cultural, or community organizations. This section can highlight your commitment to social causes and your ability to work collaboratively with others towards a common goal.
+
+#     In this section, you can list the name of the organization, your role and responsibilities, the duration of your involvement, and any significant achievements or accomplishments. You can also mention any skills or qualities you gained from your involvement, such as leadership, teamwork, communication, or problem-solving skills.
+
+#     This section can be especially valuable for candidates seeking positions in the non-profit sector, social work, or community engagement roles, where experience in social or cultural organizations can demonstrate a genuine passion for social causes and a willingness to work collaboratively towards social change. However, it is important to only include organizations that are relevant to the job you are applying for, and avoid listing organizations that may be controversial or potentially offensive.
+
+# language:
+#   show: true
+#   order: 11
+#   title: Languages
+#   description: |
+#     The languages section in a resume typically includes information about your proficiency in different languages. This section can be particularly important if you are applying for a job that requires fluency or proficiency in a specific language.
+
+#     It's important to be honest about your language proficiency in your resume. If you overstate your abilities, it could lead to problems during the interview process or on the job. If you have taken language courses or earned language certifications, you can also include this information in the languages section of your resume.
+
+#   items:
+#     - idiom: Chinese
+#       level: Native
+#     - idiom: English
+#       level: Professional
+
+# interest:
+#   show: true
+#   order: 12
+#   title: Interests
+#   description: |
+#     The interests section in a resume typically refers to a section where you can mention your hobbies, interests, and activities outside of work or school. This section can give potential employers a better idea of your personality, your values, and your interests beyond your professional experience.
+
+#     Including an interest section in your resume can be helpful if your interests are relevant to the job you are applying for, such as if you are applying for a job in a creative field and your hobbies include painting or writing. It can also be useful if you are applying for a job where teamwork or social skills are important, and you can mention interests that demonstrate those qualities.
+
+#     However, it is important to be selective when including an interest section in your resume, and to choose interests that are appropriate and professional. Avoid including controversial or potentially offensive interests, and focus on interests that showcase your positive qualities and strengths.
+
+#   items:
+#     - item: Reading
+#       link: '#'
+#     - item: Cooking
+#       link:
+
+# evaluation:
+#   show: true
+#   order: 13
+#   title: Self-evaluation
+#   description: |
+#     The self-evaluation section in a resume is a section where you can evaluate and assess your own skills, strengths, and weaknesses. It is typically a short paragraph or bullet points at the end of your resume, which provides a personal perspective on your abilities and how they align with the requirements of the job.
+
+#     In this section, you can highlight your achievements, areas of expertise, and any unique qualities or experiences that set you apart from other candidates. You can also mention areas where you are looking to improve or gain further experience.
+
+#     A well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.
+
+# reference:
+#   show: true
+#   order: 14
+#   title: References
+#   description: |
+#     A reference section in a resume is a list of individuals who can vouch for your skills, work ethic, and character. These individuals are typically former managers, colleagues, or mentors who have worked closely with you in the past and can provide insight into your abilities and work style.
+
+#     It's important to note that including a reference section in a resume is not always necessary, and some employers may prefer to request references separately. If you do choose to include a reference section, it should typically be located at the end of your resume.
+
+#     When listing references, be sure to include the individual's name, job title, company name, phone number, and email address. It's also a good idea to ask for the individual's permission before listing them as a reference, and to let them know what kind of job you are applying for so they can speak to your relevant skills and experience.
+
+#     It's important to choose references who can provide a positive and comprehensive evaluation of your work. Avoid listing family members or friends as references, and instead focus on individuals who can speak to your professional abilities and accomplishments.
+
+#   items:
+#     - name: Foo One
+#       link: '#'
+#       title: Backend Developer
+#       institution: Second Company
+#       address: 1234 Example St, XXX, XY 11111
+#       email: foo.one@example.com
+#       phone: 111-222-333
+#       description: |
+#         Foo One was my colleague in Second Company.
+
+#     - name: Bar Two
+#       link:
+#       title: Professor
+#       institution: Example University
+#       address: 4321 Example St, YYY, XY 22222
+#       email: bar.two@example.com
+#       phone: 444-555-666
+#       description: |
+#         Bar Two was my advisor at Example University.
+
+close: <strong>Sorry, my resume has been hidden.</strong>
