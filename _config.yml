@@ -24,7 +24,7 @@ open_graph:
   enable: true                        # enable open graph meta tags
   image: /assets/images/profile.png   # open graph image path
 
-# Style
+# Style 
 text_direction: ltr         # text direction, 'ltr' or 'rtl'
 date_format: "%Y-%m-%d"     # date format
 theme_color: "#1DA1F2"      # your favorite theme color
@@ -37,3 +37,4 @@ section_background: false   # section title backound, 'true' or 'false'
 skill_level_icon: lightbulb # skill rate icon, 'heart', 'star', 'circle' or 'lightbulb'
 link_icon: true             # show link icon, 'true' or 'false'
 site_footer: true           # show site footer, 'true' or 'false'
+
