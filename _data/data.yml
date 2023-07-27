@@ -101,7 +101,7 @@ experience:
       location: 上海
       description: |
         + 收集二进制CVE漏洞的POC，进行复现和工具化集成
-        + 二进制CVE漏洞的1day复现，0day挖掘
+        + 二进制CVE漏洞的1day复现
 
 project:
   show: true
@@ -131,10 +131,10 @@ skill:
   order: 5
   title: 技术能力
   description: |
-    + __编程语言__: Python, C, x86 Assembly, Shell
+    + __编程语言__: Python, C, x86 Assembly, Shell, Golang, Yak
     + 熟练使用 IDA Pro 进行软件静态分析并编写脚本,熟练使用 GDB 进行动态调试,熟悉软件二进制级静态分析技术的理论基础和代码实现
     + 能熟练编写 Linux 下的工具脚本,有对路由器等IOT设备分析经验,对 Linux 用户态二进制漏洞有深入了解
-    + 熟悉网络爬虫的编写，有编写免杀工具的经验
+    + 熟悉网络爬虫的编写，有制作工具免杀的经验
     + 对当前ctf比赛赛题有一定经验,有ctf教学培训经验
 
   # items:
@@ -270,6 +270,8 @@ certificate:
       details: |
 
     - name: 2023年第十六届全国大学生信息安全竞赛西南赛区一等奖
+
+    - name: 2023年第十六届全国大学生信息安全竞赛总决赛三等奖
 
 # publication:
 #   show: true
