@@ -259,11 +259,11 @@ certificate:
       link: 
       details: |
 
-    - name: 2022年第六届强网杯全国网络安全挑战赛线上赛强网先锋
-      authority: 河南省强网杯赛事组
-      time: 2022.08
-      link: 
-      details: |
+    # - name: 2022年第六届强网杯全国网络安全挑战赛线上赛强网先锋
+    #   authority: 河南省强网杯赛事组
+    #   time: 2022.08
+    #   link: 
+    #   details: |
 
     - name: 2022年第六届强网杯全国网络安全挑战赛线下赛三等奖
       authority: 河南省强网杯赛事组
