@@ -101,17 +101,17 @@ experience:
       location: 上海
       description: |
         + 收集二进制CVE漏洞的POC，进行复现和工具化集成
-        + 二进制CVE漏洞的1day复现
+        + CVE漏洞的1day复现
     
     - company: 上海螣龙科技有限公司
       link:
       tags: 正式
-      date: 2023.08 - 2024.02
+      date: 2023.08 - 2024.03
       role: 安全研究员
       location: 上海
       description: |
-        + 对IOT设备和Realworld产品进行漏洞挖掘和分析
-        + 跟踪最新漏洞跟踪利用技术，对二进制CVE漏洞1day进行复现
+        + 对IOT等Realworld产品进行漏洞挖掘和分析
+        + 跟踪最新漏洞跟踪利用技术，对CVE漏洞1day进行复现
 
 project:
   show: true
@@ -136,14 +136,16 @@ project:
       description: |
         + 一个在CTF比赛中用于切换题目运行libc环境的工具
         + 基于python和shell编写
-
-    - name: 数据泄露信息收集
+    
+    - name: 比赛出题和培训
       link: 
-      tags: 爬虫编写
+      tags: 组织比赛
       date:
       description: |
-        + 对数据泄露论坛和暗网网站中相关泄露信息进行爬取存档
-        + 反爬虫机制的绕过
+        + 参与组织过上海地区举办的两次网络安全比赛，主要负责出题部分
+        + 为校赛和政企比赛比赛提供题目
+        + 为政企提供安全培训和课程录制
+
 
 skill:
   show: true
@@ -153,8 +155,8 @@ skill:
     + __编程语言__: Python, C, x86 Assembly, Shell, Golang, Yak
     + 熟练使用 IDA Pro 进行软件静态分析，熟练使用 GDB 进行动态调试，能熟练编写工具脚本、漏洞检测脚本和漏洞利用脚本
     + 具备固件逆向能力，熟悉常见漏洞(缓冲区溢出，任意命令执行等)，有对IOT设备和Realworld产品进行漏洞挖掘的经验，有数十个CVE、CNVD编号，获得过锐捷的致谢
-    + 对 Linux 用户态和内核态漏洞有深入了解
-    + 熟悉网络爬虫的编写，对内网渗透知识的基础了解，有制作工具免杀的经验 
+    + 对 Linux 用户态和内核态漏洞有分析经验
+    + 熟悉网络爬虫的编写，反爬虫机制的绕过，对内网渗透知识的基础了解，有制作工具免杀的经验 
     + 参加过多次网络安全比赛线下赛，了解CTF、AWD、RW、RHG、KOH等赛制，有比赛教学培训的经验
 
   # items:
