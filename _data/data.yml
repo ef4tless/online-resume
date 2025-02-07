@@ -1,6 +1,6 @@
 basic:
   name: 陈彦名                      # name
-  title: 二进制安全/pwn手           # job title
+  title: 二进制安全/pwn方向           # job title
   avatar:
     show: true                       # show or hide avatar
     path: https://e4l4pic.oss-cn-beijing.aliyuncs.com/2.jpg # avatar file path
@@ -152,11 +152,11 @@ skill:
   order: 5
   title: 技术能力
   description: |
-    + __编程语言__: Python, C, x86 Assembly, Shell, Golang, Yak
-    + 熟练使用 IDA Pro 进行软件静态分析，熟练使用 GDB 进行动态调试，能熟练编写工具脚本、漏洞检测脚本和漏洞利用脚本
-    + 具备固件逆向能力，熟悉常见漏洞(缓冲区溢出，任意命令执行等)，有对IOT设备和Realworld产品进行漏洞挖掘的经验，有数十个CVE、CNVD编号，获得过锐捷的致谢
-    + 对 Linux 用户态和内核态漏洞有分析经验
-    + 熟悉网络爬虫的编写，反爬虫机制的绕过，对内网渗透知识的基础了解，有制作工具免杀的经验 
+    + __编程语言__: Python, C, x86 汇编, Shell, Golang
+    + 熟练使用 IDA Pro, GDB等软件进行静态分析和动态调试，能编写工具脚本、漏洞检测脚本和漏洞利用脚本
+    + 熟悉常见漏洞原理(缓冲区溢出，任意命令执行等), 有固件解包和对IOT设备和其他Realworld产品进行漏洞挖掘的经验，有数十个CVE编号，获得过锐捷的致谢
+    + 能熟练地对漏洞进行和分析和复现，并深入探讨其原理和编写分析文章；熟悉CTF比赛二进制方向的内容
+    + 熟悉网络爬虫的编写，对内网渗透知识的了解
     + 参加过多次网络安全比赛线下赛，了解CTF、AWD、RW、RHG、KOH等赛制，有比赛教学培训的经验
 
   # items:
@@ -210,7 +210,7 @@ education:
       major: 信息安全专业
       degree: 本科
       description: |
-        + GPA专业前10%
+        + GPA专业前5%
         + CET4(442分)
     # - institution: Example University
     #   link:
