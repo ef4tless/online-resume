@@ -7,7 +7,7 @@ basic:
 
 contact:
   # meta
-  location: 上海, 中国 # location
+  location: 四川, 中国 # location
   email: 963697159@qq.com    # email address
   phone: +86-180-0823-9271 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website: blog.e4l4.com     # site URL without schema, like example.com, will automatically prepand "https://"
@@ -111,7 +111,7 @@ experience:
       location: 上海
       description: |
         + 对IOT等Realworld产品进行漏洞挖掘和分析
-        + 跟踪最新漏洞跟踪利用技术，对CVE漏洞1day进行复现
+        + 跟踪最新的漏洞和利用技术，对CVE漏洞1day进行复现
 
 project:
   show: true
@@ -135,7 +135,7 @@ project:
       date:
       description: |
         + 一个在CTF比赛中用于切换题目运行libc环境的工具
-        + 基于python和shell编写
+        + 基于python编写
     
     - name: 比赛出题和培训
       link: 
@@ -152,11 +152,11 @@ skill:
   order: 5
   title: 技术能力
   description: |
-    + __编程语言__: Python, C, x86 汇编, Shell, Golang
+    + __编程语言__: Python, C, x86 汇编, arm汇编, Shell, Golang
     + 熟练使用 IDA Pro, GDB等软件进行静态分析和动态调试，能编写工具脚本、漏洞检测脚本和漏洞利用脚本
-    + 熟悉常见漏洞原理(缓冲区溢出，任意命令执行等), 有固件解包和对IOT设备和其他Realworld产品进行漏洞挖掘的经验，有数十个CVE编号，获得过锐捷的致谢
+    + 熟悉常见漏洞原理(缓冲区溢出，任意命令执行等), 有对固件解密和IOT设备及其他Realworld产品进行漏洞挖掘的经验，有数十个CVE编号，获得过锐捷的致谢
     + 能熟练地对漏洞进行和分析和复现，并深入探讨其原理和编写分析文章；熟悉CTF比赛二进制方向的内容
-    + 熟悉网络爬虫的编写，对内网渗透知识的了解
+    + 熟悉网络爬虫的编写，了解内网渗透知识
     + 参加过多次网络安全比赛线下赛，了解CTF、AWD、RW、RHG、KOH等赛制，有比赛教学培训的经验
 
   # items:
@@ -210,7 +210,7 @@ education:
       major: 信息安全专业
       degree: 本科
       description: |
-        + GPA专业前5%
+        + GPA专业前10%
         + CET4(442分)
     # - institution: Example University
     #   link:
