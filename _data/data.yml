@@ -8,9 +8,9 @@ basic:
 contact:
   # meta
   location: 四川, 中国 # location
-  email: 963697159@qq.com    # email address
+  email: chenyanming66@126.com    # email address
   phone: +86-180-0823-9271 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: blog.e4l4.com     # site URL without schema, like example.com, will automatically prepand "https://"
+  website: http://blog.e4l4.com     # site URL without schema, like example.com, will automatically prepand "https://"
 
   gender:                  # gender or pronoun
   birthday:                # birthday
@@ -95,23 +95,23 @@ experience:
 
     - company: 上海螣龙科技有限公司
       link:
-      tags: 实习
-      date: 2023.04 - 2023.08
-      role: 安全研究员
+      tags: 实习/正式
+      date: 2023.04 - 2024.03
+      role: 二进制安全研究员
       location: 上海
       description: |
-        + 收集二进制CVE漏洞的POC，进行复现和工具化集成
-        + CVE漏洞的1day复现
+        + 对IOT设备(路由器、摄像头、防火墙等)进行漏洞挖掘和漏洞复现，编写漏洞分析文章
+        + 为公司产品提供技术支持、编写和维护漏洞库
     
-    - company: 上海螣龙科技有限公司
+    - company: 成都尺物科技有限公司
       link:
       tags: 正式
-      date: 2023.08 - 2024.03
+      date: 2025.02 - 2025.04
       role: 安全研究员
-      location: 上海
+      location: 成都
       description: |
-        + 对IOT等Realworld产品进行漏洞挖掘和分析
-        + 跟踪最新的漏洞和利用技术，对CVE漏洞1day进行复现
+        + 编写IOT设备二进制LLM漏洞筛查工具，为公司产品提供技术支持
+        + 对IOT设备(路由器、摄像头、防火墙等)进行漏洞挖掘和漏洞复现，编写漏洞分析文章
 
 project:
   show: true
@@ -134,8 +134,8 @@ project:
       tags: 工具开发
       date:
       description: |
-        + 一个在CTF比赛中用于切换题目运行libc环境的工具
-        + 基于python编写
+        + 一个在CTF比赛中用于切换题目运行libc环境的工具(⭐60 Star)
+        + 基于python、shell编写
     
     - name: 比赛出题和培训
       link: 
@@ -143,8 +143,7 @@ project:
       date:
       description: |
         + 参与组织过上海地区举办的两次网络安全比赛，主要负责出题部分
-        + 为校赛和政企比赛比赛提供题目
-        + 为政企提供安全培训和课程录制
+        + 为校赛和政企比赛比赛提供题目、为政企提供安全培训和课程录制
 
 
 skill:
@@ -152,11 +151,11 @@ skill:
   order: 5
   title: 技术能力
   description: |
-    + __编程语言__: Python, C, x86 汇编, arm汇编, Shell, Golang
+    + __编程语言__: Python, C, x86/arm/mips汇编, Shell, Golang
     + 熟练使用 IDA Pro, GDB等软件进行静态分析和动态调试，能编写工具脚本、漏洞检测脚本和漏洞利用脚本
     + 熟悉常见漏洞原理(缓冲区溢出，任意命令执行等), 有对固件解密和IOT设备及其他Realworld产品进行漏洞挖掘的经验，有数十个CVE编号，获得过锐捷的致谢
     + 能熟练地对漏洞进行和分析和复现，并深入探讨其原理和编写分析文章；熟悉CTF比赛二进制方向的内容
-    + 熟悉网络爬虫的编写，了解内网渗透知识
+    + 熟悉网络爬虫的编写，了解基础内网渗透知识
     + 参加过多次网络安全比赛线下赛，了解CTF、AWD、RW、RHG、KOH等赛制，有比赛教学培训的经验
 
   # items:
@@ -210,7 +209,7 @@ education:
       major: 信息安全专业
       degree: 本科
       description: |
-        + GPA专业前10%
+        + GPA专业前20%
         + CET4(442分)
     # - institution: Example University
     #   link:
