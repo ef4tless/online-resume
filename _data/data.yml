@@ -10,7 +10,7 @@ contact:
   location: 四川, 中国 # location
   email: chenyanming66@126.com    # email address
   phone: +86-180-0823-9271 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: http://blog.e4l4.com     # site URL without schema, like example.com, will automatically prepand "https://"
+  website: blog.e4l4.com     # site URL without schema, like example.com, will automatically prepand "https://"
 
   gender:                  # gender or pronoun
   birthday:                # birthday
@@ -83,7 +83,7 @@ profile:
   order: 1
   title: 自我介绍
   description: |
-    本人在校成绩优秀，乐观向上，对二进制漏洞挖掘与程序分析有浓厚的兴趣，愿意尝试新事物，具有较强的分析与解决问题的能力，以及信息检索与自主学习能力。拥有自己动手探索复杂系统实现机制的好奇心。在 CTF 竞赛中多次取得优秀成绩。
+    本人在校成绩优秀，性格乐观向上，对二进制漏洞挖掘与程序分析有浓厚兴趣，具备较强的分析与解决问题能力，以及信息检索与自主学习能力。乐于尝试新事物，拥有动手探索复杂系统实现机制的好奇心。在 CTF 竞赛中多次取得优异成绩，积累了丰富的实践经验。愿意不断挑战自我，积极尝试新领域，力求在研究生阶段实现更高层次的突破与成长。
 
 experience:
   show: true
@@ -97,11 +97,11 @@ experience:
       link:
       tags: 实习/正式
       date: 2023.04 - 2024.03
-      role: 二进制安全研究员
+      role: 安全研究员
       location: 上海
       description: |
-        + 对IOT设备(路由器、摄像头、防火墙等)进行漏洞挖掘和漏洞复现，编写漏洞分析文章
-        + 为公司产品提供技术支持、编写和维护漏洞库
+        + 针对IOT设备(路由器、摄像头、防火墙等)进行漏洞挖掘和漏洞复现，编写漏洞分析文章
+        + 为公司安全产品提供技术支持，参与漏洞库的编写与持续维护
     
     - company: 成都尺物科技有限公司
       link:
@@ -110,8 +110,8 @@ experience:
       role: 安全研究员
       location: 成都
       description: |
-        + 编写IOT设备二进制LLM漏洞筛查工具，为公司产品提供技术支持
-        + 对IOT设备(路由器、摄像头、防火墙等)进行漏洞挖掘和漏洞复现，编写漏洞分析文章
+        + 基于LLM设计并开发面向IOT设备的已知二进制漏洞筛查工具，为公司安全产品提供技术支撑
+        + 负责IOT设备（路由器、摄像头、防火墙等）的漏洞挖掘与复现，撰写漏洞分析文章
 
 project:
   show: true
@@ -126,36 +126,35 @@ project:
       date:
       description: |
         + 一个在CTF比赛中用于切换题目运行libc环境的工具(⭐60 Star)
-        + 基于python、shell编写
+        + 基于shell编写
     
-    - name: 比赛出题和培训
+    - name: 网络安全比赛出题与培训
       link: 
-      tags: 组织比赛
+      tags: 比赛组织
       date:
       description: |
-        + 参与组织过上海地区举办的两次网络安全比赛，主要负责出题部分
-        + 为校赛和政企比赛比赛提供题目、为政企提供安全培训和课程录制
+        + 参与组织上海地区两场网络安全比赛，主要负责题目设计与技术审核工作
+        + 为省赛与政企的网络安全竞赛提供高质量题目支持，参与政企单位的安全培训课程开发与录制工作，协助完成实训内容设计与讲解
 
-    - name: 洞观-二进制LLM漏洞筛查系统
+    - name: 洞观-基于LLM的已知二进制漏洞筛查系统
       link: 
       tags: 工具开发
       date: 
       description: |
-        + 通过向量数据库FAISS结合LLM构建漏洞代码数据集，用RAG和LLM相似度计算对二进制反编译函数进行识别分析
-        + 对漏洞代码数据集进行学习，实现大模型对漏洞的自动筛查并输出漏洞信息
+        + 基于FAISS构建漏洞函数向量数据库，结合LLM与RAG架构实现相似函数检索与漏洞特征匹配
+        + 利用反编译得到的函数表示，结合预训练大模型进行相似度分析，实现对已知漏洞代码的自动识别与筛查
 
 skill:
   show: true
   order: 5
   title: 技术能力
   description: |
-    + __编程语言__: Python, C, x86/arm/mips汇编, Shell, Golang
-    + __主要研究方向__: 二进制漏洞分析, IoT 安全, 逆向工程, 大语言模型（LLM）
-    + 熟练使用 IDA Pro, GDB等软件进行静态分析和动态调试，能编写工具脚本、漏洞检测脚本和漏洞利用脚本
-    + 熟悉常见漏洞原理（缓冲区溢出，任意命令执行等），有对固件解密和IOT设备及其他Realworld产品进行漏洞挖掘的经验，有数十个CVE编号，获得过锐捷的致谢
-    + 熟悉CTF比赛二进制方向的内容，能熟练地对漏洞进行分析和复现，并深入探讨其原理和编写分析文章，参加过多次网络安全比赛线下赛，了解CTF、AWD、RW、RHG、KOH等赛制，有比赛教学培训的经验
-    + 熟悉网络爬虫的编写
-    + 有研究过LLM在安全漏洞检测方向的应用，探索用RAG方法提高漏洞分析的准确性，有采用LoRA和QLoRA进行高效微调、优化大模型的漏洞理解能力的经验
+    + __编程语言__: Python, C, x86/arm/mips汇编, Shell
+    + __主要研究方向__: 二进制漏洞分析, IOT安全, 逆向工程, 大语言模型（LLM）在安全中的应用
+    + 熟练使用 IDA Pro、GDB 等工具进行静态与动态分析，熟悉缓冲区溢出、命令执行等常见漏洞原理，能独立编写漏洞检测与利用脚本
+    + 拥有固件解密及真实IOT设备漏洞挖掘经验，累计获得数十个CVE漏洞编号，曾获锐捷网络公开致谢
+    + 擅长CTF中的PWN方向，能深入分析并复现各类二进制漏洞，撰写高质量分析文章；参与多次网络安全线下赛，熟悉 CTF、AWD、RW、RHG、KOH 等赛制，具备出题与培训经验
+    + 探索大语言模型在漏洞检测领域的应用，实践过 RAG 方法以提升漏洞识别准确率；具备使用 LoRA、QLoRA 等轻量微调技术优化大模型漏洞理解能力的经验
 
   # items:
   #   - name: Skill A
@@ -259,20 +258,8 @@ certificate:
       link: 
       details: |
 
-    # - name: 2022年第六届强网杯全国网络安全挑战赛线上赛强网先锋
-    #   authority: 河南省强网杯赛事组
-    #   time: 2022.08
-    #   link: 
-    #   details: |
-
     - name: 2022年第六届强网杯全国网络安全挑战赛线下赛三等奖
       authority: 河南省强网杯赛事组
-      time: 2022.08
-      link: 
-      details: |
-
-    - name: 2022第三届“网鼎杯”网络安全大赛线上赛社会组第7名
-      authority: 国公安部/浙江省公安厅第7名 
       time: 2022.08
       link: 
       details: |
@@ -288,6 +275,8 @@ certificate:
       time: 2022.11
       link: 
       details: |
+
+    - name: 2023年第四届长城杯信息安全铁人三项赛分区赛三等奖
 
     - name: 2023年第十六届全国大学生信息安全竞赛西南赛区一等奖
 
