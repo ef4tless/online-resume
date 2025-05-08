@@ -29,8 +29,7 @@ experience:
       description: |
         + 负责IOT设备漏洞挖掘与漏洞复现，编写漏洞分析报告
         + 参与公司内部技术培训，负责二进制漏洞分析方向的课程设计与讲解
-        + 为团队成员提供技术指导，协助优化漏洞挖掘流程
-        + 参与漏洞库建设与维护，提升团队整体技术水平
+        + 为团队成员提供技术指导，协助优化漏洞挖掘流程；参与漏洞库建设与维护，提升团队整体技术水平
     
     - company: 成都尺物科技有限公司
       link:
@@ -41,7 +40,6 @@ experience:
       description: |
         + 负责IOT设备漏洞挖掘与复现，撰写漏洞分析报告
         + 基于LLM设计并开发二进制漏洞筛查工具，为团队提供技术支撑
-        + 参与安全产品的功能设计与优化，提升产品漏洞检测能力
         + 负责公司内部与客户的技术培训，讲解漏洞分析与防御技术
 
 project:
@@ -81,16 +79,14 @@ project:
       date:
       description: |
         + 用于CTF比赛的libc环境切换工具，支持多版本libc的快速切换 (⭐60 Star)
-        + 基于shell编写，支持高效环境管理
     
-    - name: 网络安全比赛出题与培训
+    - name: 网络安全比赛出题
       link: 
       tags: 比赛组织
       date:
       description: |
         + 参与组织上海地区两场网络安全比赛，负责题目设计与技术审核
         + 为省赛与政企的网络安全竞赛提供高质量题目支持，并参与实训课程开发
-        + 录制线上培训课程，涵盖漏洞挖掘、逆向工程与安全攻防实践
 
     - name: 洞观-基于LLM的已知二进制漏洞筛查系统
       link: 
@@ -162,12 +158,11 @@ education:
       date: 2019 - 2023
       major: 信息安全专业
       degree: 本科
-      description: |
-        + GPA专业前20%
 
     - institution: 广州大学方班
       link: 'https://wyy.gzhu.edu.cn/'
-      major: 人工智能
+      date: 2025
+      major: 人工智能专业
       degree: 硕士在读
       # description: |
       #   Additional information for this institution.
