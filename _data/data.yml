@@ -5,85 +5,12 @@ basic:
     show: true                       # show or hide avatar
     path: https://e4l4pic.oss-cn-beijing.aliyuncs.com/2.jpg # avatar file path
 
-contact:
-  # meta
-  location: 四川, 中国 # location
-  email: chenyanming66@126.com    # email address
-  phone: +86-180-0823-9271 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: blog.e4l4.com     # site URL without schema, like example.com, will automatically prepand "https://"
-
-  gender:                  # gender or pronoun
-  birthday:                # birthday
-  nationality:             # nationality
-  visa:                    # passport visa
-  drivinglicense:          # driving licence
-
-  # contact
-  wechat:                  # username
-  whatsapp:                # 8611122223333     | https://wa.me/8611122223333
-  telegram:                # username          | https://t.me/username
-  messenger:               # username          | https://m.me/username
-  line:                    # lineid            | https://line.me/R/ti/p/@lineid
-  viber:                   # username          | https://vb.me/username
-  threema:                 # userid            | https://threema.id/userid
-
-  # programmer
-  github:                  # username          | https://github.com/username
-  gitlab:                  # username          | https://gitlab.com/username
-  bitbucket:               # username          | https://bitbucket.com/username
-  stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
-  leetcode:                # username          | https://leetcode.com/username
-  codeforces:              # username          | https://codeforces.com/profile/username
-  codewars:                # username          | https://www.codewars.com/users/username
-  codepen:                 # username          | https://codepen.io/username
-  tryhackme:               # username          | https://tryhackme.com/p/username
-
-  # academic
-  googlescholar:           # username          | https://scholar.google.com/citations?user=username
-  researchgate:            # username          | https://www.researchgate.net/profile/username
-  kaggle:                  # username          | https://www.kaggle.com/username
-  orcid:                   # id                | https://orcid.org/id
-  figshare:                # name/id           | https://figshare.com/authors/name/id
-
-  # writer
-  devto:                   # username          | https://dev.to/username
-  medium:                  # username          | https://medium.com/@username
-  wordpress:               # username          | https://username.wordpress.com
-  blogger:                 # username          | https://username.blogspot.com
-  wikipedia:               # username          | https://www.wikipedia.org/wiki/User:username
-
-  # designer
-  figma:                   # username          | https://www.figma.com/@username
-  behance:                 # username          | https://www.behance.net/username
-  dribble:                 # username          | https://dribbble.com/username
-  artstation:              # username          | https://www.artstation.com/username
-
-  # other cv
-  linkedin:                # username          | https://linkedin.com/in/username
-  indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
-  xing:                    # username          | https://www.xing.com/profile/username
-  fiverr:                  # username          | https://www.fiverr.com/username
-  freelancer:              # username          | https://www.freelancer.com/u/username
-
-  # social media
-  twitter:                 # username          | https://twitter.com/username
-  mastodon:                # username@server
-  instagram:               # username          | https://instagram.com/username
-  unsplash:                # username          | https://unsplash.com/@username
-  _500px:                  # username          | https://500px.com/p/username
-  youtube:                 # username          | https://www.youtube.com/@username
-  tiktok:                  # username          | https://www.tiktok.com/@username
-  quora:                   # username          | https://www.quora.com/profile/username
-  zhihu:                   # username          | https://www.zhihu.com/people/username
-  goodreads:               # username          | https://www.goodreads.com/user/show/username
-  strava:                  # useid             | https://www.strava.com/athletes/userid
-
 profile:
   show: true
   order: 1
   title: 自我介绍
   description: |
-    本人在校成绩优秀，性格乐观向上，对二进制漏洞挖掘与程序分析有浓厚兴趣，具备较强的分析与解决问题能力，以及信息检索与自主学习能力。乐于尝试新事物，拥有动手探索复杂系统实现机制的好奇心。在 CTF 竞赛中多次取得优异成绩，积累了丰富的实践经验。愿意不断挑战自我，积极尝试新领域，力求在研究生阶段实现更高层次的突破与成长。
+    本人专注于二进制漏洞分析与程序安全研究，具备丰富的实战经验和教学实践，曾参与多次高水平CTF竞赛并取得优异成绩。同时具备较强的分析与解决问题能力，擅长将复杂的安全知识转化为易于理解的教学内容，帮助学员快速掌握关键技能。在教学中注重实践与理论结合，强调学以致用。
 
 experience:
   show: true
@@ -100,8 +27,10 @@ experience:
       role: 安全研究员
       location: 上海
       description: |
-        + 针对IOT设备(路由器、摄像头、防火墙等)进行漏洞挖掘和漏洞复现，编写漏洞分析文章
-        + 为公司安全产品提供技术支持，参与漏洞库的编写与持续维护
+        + 负责IOT设备漏洞挖掘与漏洞复现，编写漏洞分析报告
+        + 参与公司内部技术培训，负责二进制漏洞分析方向的课程设计与讲解
+        + 为团队成员提供技术指导，协助优化漏洞挖掘流程
+        + 参与漏洞库建设与维护，提升团队整体技术水平
     
     - company: 成都尺物科技有限公司
       link:
@@ -110,31 +39,58 @@ experience:
       role: 安全研究员
       location: 成都
       description: |
-        + 基于LLM设计并开发面向IOT设备的已知二进制漏洞筛查工具，为公司安全产品提供技术支撑
-        + 负责IOT设备（路由器、摄像头、防火墙等）的漏洞挖掘与复现，撰写漏洞分析文章
+        + 负责IOT设备漏洞挖掘与复现，撰写漏洞分析报告
+        + 基于LLM设计并开发二进制漏洞筛查工具，为团队提供技术支撑
+        + 参与安全产品的功能设计与优化，提升产品漏洞检测能力
+        + 负责公司内部与客户的技术培训，讲解漏洞分析与防御技术
 
 project:
   show: true
   order: 4
-  title: 项目经历
+  title: 培训经历&项目经历
   description: |
 
   items:
+    - name: i春秋CTF课程
+      link: 
+      tags: 
+      date:
+      description: |
+        + 参与i春秋CTF课程录制，主要负责PWN方向部分内容
+        + 为初学者设计从入门到进阶的学习路径，并提供疑问讲解服务
+    
+    - name: 一汽大众漏洞分析课程
+      link: 
+      tags: 
+      date:
+      description: |
+        + 负责一汽大众漏洞分析课程的设计与录制
+        + 深入浅出地讲解漏洞的发现与利用技术
+
+    - name: 观安杯比赛线下培训
+      link: 
+      tags: 
+      date: 
+      description: |
+        + 参与观安杯线下培训，负责讲解ctf和awd赛制的内容
+        + 结合题目实践，指导学员进行比赛内容学习和上手
+
     - name: xclibc
       link: https://github.com/ef4tless/xclibc
       tags: 工具开发
       date:
       description: |
-        + 一个在CTF比赛中用于切换题目运行libc环境的工具(⭐60 Star)
-        + 基于shell编写
+        + 用于CTF比赛的libc环境切换工具，支持多版本libc的快速切换 (⭐60 Star)
+        + 基于shell编写，支持高效环境管理
     
     - name: 网络安全比赛出题与培训
       link: 
       tags: 比赛组织
       date:
       description: |
-        + 参与组织上海地区两场网络安全比赛，主要负责题目设计与技术审核工作
-        + 为省赛与政企的网络安全竞赛提供高质量题目支持，参与政企单位的安全培训课程开发与录制工作，协助完成实训内容设计与讲解
+        + 参与组织上海地区两场网络安全比赛，负责题目设计与技术审核
+        + 为省赛与政企的网络安全竞赛提供高质量题目支持，并参与实训课程开发
+        + 录制线上培训课程，涵盖漏洞挖掘、逆向工程与安全攻防实践
 
     - name: 洞观-基于LLM的已知二进制漏洞筛查系统
       link: 
@@ -208,7 +164,16 @@ education:
       degree: 本科
       description: |
         + GPA专业前20%
-        + CET4(442分)
+
+    - institution: 广州大学方班
+      link: 'https://wyy.gzhu.edu.cn/'
+      major: 人工智能
+      degree: 硕士在读
+      # description: |
+      #   Additional information for this institution.
+      #   + First
+      #   + Second
+
     # - institution: Example University
     #   link:
     #   date: 2011 - 2015
