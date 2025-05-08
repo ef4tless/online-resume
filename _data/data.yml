@@ -140,17 +140,17 @@ education:
   description: |
 
   items:
-    - institution: 西华大学
-      link: 'https://www.xhu.edu.cn/'
-      date: 2019 - 2023
-      major: 信息安全专业
-      degree: 本科
+    - institution: 西华大学&广州大学方班
+      link: 
+      date: 2019 - 2025
+      major: 信息安全专业/人工智能专业
+      degree: 本科&硕士在读
 
-    - institution: 广州大学方班
-      link: 'https://wyy.gzhu.edu.cn/'
-      date: 2025
-      major: 人工智能专业
-      degree: 硕士在读
+    # - institution: 广州大学方班
+    #   link: 'https://wyy.gzhu.edu.cn/'
+    #   date: 2025
+    #   major: 人工智能专业
+    #   degree: 硕士在读
       # description: |
       #   Additional information for this institution.
       #   + First
