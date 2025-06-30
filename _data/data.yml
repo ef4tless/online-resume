@@ -27,8 +27,6 @@ experience:
       role: 安全研究员
       location: 上海
       description: |
-        + 负责IOT设备漏洞挖掘与漏洞复现，编写漏洞分析报告
-        + 为团队成员提供技术指导，协助优化漏洞挖掘流程；参与漏洞库建设与维护，提升团队整体技术水平
     
     - company: 成都尺物科技有限公司
       link:
@@ -37,8 +35,14 @@ experience:
       role: 安全研究员
       location: 成都
       description: |
-        + 负责IOT设备漏洞挖掘与复现，撰写漏洞分析报告
-        + 基于LLM设计并开发二进制漏洞筛查工具，为团队提供技术支撑
+
+    - company: 杭州薮猫科技有限公司
+      link:
+      tags: 正式
+      date: 2025.05 - 至今
+      role: 安全研究员
+      location: 杭州
+      description: |
 
 project:
   show: true
@@ -140,11 +144,10 @@ education:
   description: |
 
   items:
-    - institution: 西华大学&广州大学方班
+    - institution: 西华大学
       link: 
-      date: 2019 - 2025
-      major: 信息安全专业/人工智能专业
-      degree: 本科&硕士在读
+      major: 信息安全专业
+      degree: 本科
 
     # - institution: 广州大学方班
     #   link: 'https://wyy.gzhu.edu.cn/'
